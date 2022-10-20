@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs-extra": "^10.1.0",
-    "text-decoding": "^1.0.0"
+    "fs-extra": "^10.1.0"
   }
 }
