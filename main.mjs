@@ -75,7 +75,7 @@ function copyFolder(target) {
     data.match(/(?<=\<PublishUrl\>).*(?=\<\/PublishUrl\>)/)[0]
   )
   const hash = execSync('git rev-parse HEAD', { cwd }).toString()
-  fs.copySync(publishFolder, path.resolve(output, `HongBo.Agent`))
+  fs.copySync(publishFolder, path.resolve(output, `HongBo.AgentWeb`))
   fs.writeFileSync(
     path.resolve(output, target + '.txt'),
     `${target}\nHongBo.AgentWeb:${hash}`
